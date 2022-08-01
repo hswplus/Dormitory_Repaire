@@ -1,0 +1,33 @@
+
+.button {
+-fx-text-fill: #364cff; //文本颜色
+
+-fx-font-size: 14; //字体大小
+
+-fx-font-family: 'Segoe Print'; //字体
+
+-fx-border-color:#FFE714;//边框颜色
+
+-fx-border-style: SOLID;//边框样式
+}
+.label{
+    -fx-text-fill: #374bff; //文本颜色
+-fx-font-size: 15; //字体大小
+/*-fx-background-color: rgba(144,248,255,0.22);*/
+}
+.combo-box{
+    -fx-font-size: 15; //字体大小
+-fx-border-color:#FFE714;//边框颜色
+-fx-background-color: rgba(44,248,2,0.22);
+}
+.text-field{
+    -fx-font-size: 15; //字体大小
+-fx-border-color:#FFE714;//边框颜色
+-fx-background-color: #FFFFF1;
+}
+#spane{
+   -fx-background-image: url("sample/image/background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position:center;
+}
